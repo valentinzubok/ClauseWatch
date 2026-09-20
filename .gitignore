@@ -1,0 +1,7 @@
+out/
+node_modules/
+.next/
+.vercel
+*.tsbuildinfo
+__pycache__/
+.pytest_cache/
