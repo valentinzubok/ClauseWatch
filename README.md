@@ -75,6 +75,7 @@ is trimmed to the newest 200.
 |---|---|
 | **Console** | https://valentinzubok.github.io/ClauseWatch/ |
 | **Contract** | see [`STUDIO_DEV_DEPLOY.md`](STUDIO_DEV_DEPLOY.md) — Studio Dev (chain 61997), source-verified |
+| **Demo video** | [`assets/demo/clausewatch-demo.mp4`](https://github.com/valentinzubok/ClauseWatch/blob/main/assets/demo/clausewatch-demo.mp4) (2:43, real Studio Dev transactions) |
 | **Demo page** | [`web/public/fixtures/terms.html`](web/public/fixtures/terms.html) → https://valentinzubok.github.io/ClauseWatch/fixtures/terms.html |
 
 The demo page is part of this repository, so the change ClauseWatch reacts to is a real commit you can read

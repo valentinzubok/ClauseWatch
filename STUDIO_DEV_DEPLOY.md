@@ -45,6 +45,15 @@ State after step 4: `checks 4`, `changes 2`, `material_changes 1`, baseline stil
 acknowledgement. `alert-1` (cosmetic) and `alert-2` (material) sit side by side in `list_alerts`, each carrying both
 hashes and the baseline version it was judged against.
 
+## Demo video
+
+[`assets/demo/clausewatch-demo.mp4`](https://github.com/valentinzubok/ClauseWatch/blob/main/assets/demo/clausewatch-demo.mp4): 2:43 recording of the live console, no mocks. It shows the watched page
+and its commits, chain state loaded without a wallet, then `check` → **material change**, `acknowledge` → baseline v2,
+and a second watch registered from scratch, ending on the transaction in the explorer.
+
+For an unattended recording a small EIP-1193 wallet signing with test keys is injected in place of the MetaMask
+popup; consensus waits are sped up 8x and rate-limit pauses are cut.
+
 ## Notes
 
 - GitHub Pages serves the fixture with a ~10 minute CDN cache, so a check right after a commit can still see
